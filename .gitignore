@@ -1,0 +1,7 @@
+# Prevent the API token from being committed to Git.
+.env
+
+# Ignore the temporary interactive table preview.
+jobs_preview.html
+__pycache__/
+.ipynb_checkpoints/

@@ -33,7 +33,7 @@ The project is intended to automate the following process:
 - This tracks info everytime the script runs. It saves info such as when the script was executed. 
 - Which sheet jobs were added too. How jobs were fetched from API. How many jobs were removed and How many were added to Excel sheet
 
-# Configuration 
+## API used in Script
 
 This project uses the Apify `cheap_scraper/linkedin-job-scraper` Actor to collect LinkedIn job listings.
 
@@ -42,7 +42,11 @@ This project uses the Apify `cheap_scraper/linkedin-job-scraper` Actor to collec
 Currently i set to fetch max 150 jobs per fetch. The jobs actually written to Excel ouput might be less as i intend 
 to keep only the most relevant positions per category. Quality over Quantity is the Goal.
 
-## API used in Script
+## Excel Output
+
+![Excel output 1](screenshots/excel-output_1.png)
+
+![Excel output 2](screenshots/excel-output_2.png)
 
 ## Features
 

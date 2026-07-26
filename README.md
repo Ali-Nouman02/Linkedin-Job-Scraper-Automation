@@ -39,7 +39,7 @@ This project uses the Apify `cheap_scraper/linkedin-job-scraper` Actor to collec
 
 [Open the Apify Actor input and configuration page](https://console.apify.com/actors/2rJKkhh7vjpX7pvjg/input)
 
-Currently i set to fetch max 150 jobs per fetch. The jobs actually written to Excel ouput might be less as i intend 
+Currently i set to fetch max 150 jobs per run. The jobs actually written to Excel ouput might be less as i intend 
 to keep only the most relevant positions per category. Quality over Quantity is the Goal.
 
 ## Excel Output
